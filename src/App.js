@@ -8,9 +8,9 @@ class App extends Component {
       <div>
         <Header />
         <Dashboard />
-        <Login />
+        {/* <Login />
         <Register />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }

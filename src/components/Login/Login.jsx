@@ -1,10 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Login.css";
 
-export class Login extends Component {
-  render() {
-    return <div>Login</div>;
-  }
-}
+let Login = () => {
+  return <div>Login</div>;
+};
 
 export default Login;
