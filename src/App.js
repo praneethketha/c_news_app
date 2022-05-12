@@ -1,19 +1,18 @@
-import { Component } from "react";
 import "./App.css";
 import { Dashboard, Footer, Header, Login, Register } from "./components";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <section className="min_height">
         <Dashboard />
         <Login />
         <Register />
-        <Footer />
-      </div>
-    );
-  }
-}
+      </section>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

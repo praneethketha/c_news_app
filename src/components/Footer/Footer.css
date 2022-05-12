@@ -1,0 +1,11 @@
+@font-face {
+font-family: "GlossAndBloom";
+src: local("GlossAndBloom"),
+ url("./../../Gloss_And_Bloom.ttf") format("truetype");
+font-weight: bold;
+}
+
+footer span{
+    font-family: 'GlossAndBloom';
+    cursor: pointer;
+}
