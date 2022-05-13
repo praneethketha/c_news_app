@@ -1,0 +1,40 @@
+.dashboard-right-top {
+  align-items: center;
+  display: flex;
+}
+.dashboard-right-top p {
+  font-size: 12px;
+  opacity: 0.8;
+  padding-left: 2em;
+  word-spacing: 3px;
+}
+.dashboard-right-top a {
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 1rem;
+  color: var(--white-color);
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.dashboard-right-top img {
+  border-radius: 50%;
+}
+
+.detail_img {
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+.description,
+.content {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+  word-spacing: 3px;
+}
