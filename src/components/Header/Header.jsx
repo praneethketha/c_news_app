@@ -16,7 +16,10 @@ const Header = () => {
           onClick={() => setNavOpen(!navOpen)}
         />
         <nav className={`nav ${navOpen ? "open" : "close"}`}>
-          <NavLink className="nav_link" onClick={() => setNavOpen(!navOpen)}>
+          <NavLink
+            className="nav_link active"
+            onClick={() => setNavOpen(!navOpen)}
+          >
             Home
           </NavLink>
           <NavLink className="nav_link" onClick={() => setNavOpen(!navOpen)}>
