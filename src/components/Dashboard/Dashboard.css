@@ -2,6 +2,12 @@
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+.border-brand{
+  width: max-content;
+  border-bottom: 2px solid var(--brand-color);
+}
+
 .dashboard-left h6 {
   font-size: 1.2rem;
   font-family: "Alegreya", sans-serif;

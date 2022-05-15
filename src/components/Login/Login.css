@@ -1,0 +1,29 @@
+.Loginheading
+{
+	color: var(--brand-color);
+	font-family: "Alegreya", sans-serif;
+	font-size: 3.5rem;
+}
+.Loginform
+{
+	background-color: var(--brand-color);
+    color: var(--white-color);
+    font-family: "Alegreya", sans-serif;
+    font-size: 25px;
+}
+.buttoncolor
+{
+	margin-top: 20px;
+	background-color: var(--white-color);
+}
+.checkbox
+{
+	color: var(--white-color)!important;
+    font-family: "Alegreya", sans-serif!important;
+}
+.form-check-input
+{
+	color: var(--white-color)!important;
+	background-color: var(--brand-color)!important;
+	border-color:  var(--white-color)!important;
+}

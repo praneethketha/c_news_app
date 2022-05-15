@@ -1,0 +1,18 @@
+.regheading
+{
+	color:var(--brand-color);
+	font-family: "Alegreya", sans-serif;
+	font-size: 3.5rem;
+}
+
+.Registerform{
+     background-color: var(--brand-color);
+    color: var(--white-color);
+    font-family: "Alegreya", sans-serif;
+    font-size: 25px;
+}
+.buttoncolor
+{
+	margin-top: 20px;
+	background-color: var(--white-color);
+}

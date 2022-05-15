@@ -9,8 +9,8 @@ const DetailCard = ({ currentItem }) => {
         <img src={currentItem.urlToImage} alt="" width="50px" height="50px" />
         <p>
           by{" "}
-          <span style={{ color: "#ff4163" }}>
-            {currentItem.author.split(",")[0]}
+          <span className="color-brand">
+            {currentItem.author && currentItem.author.split(",")[0]}
           </span>
           <span style={{ color: "grey" }}>
             {" "}

@@ -15,8 +15,8 @@ const Card = ({ item, setCurrentItem }) => {
       <div className="news-content">
         <button>{item.source.name}</button>
 
-        <h6>{item.title.slice(0, 60) + "..."}</h6>
-        <p>{item.author.split(",")[0]}</p>
+        <h6>{item.title && item.title.slice(0, 60) + "..."}</h6>
+        <p>{item.author && item.author.split(",")[0]}</p>
         <a rel="noreferrer" href={item.url} target="_blank">
           visit article
         </a>
