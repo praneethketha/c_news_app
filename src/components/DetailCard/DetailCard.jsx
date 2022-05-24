@@ -1,6 +1,6 @@
 import React from "react";
 import { convertDate } from "../../utils/recentTime";
-import "./DetailCard.css";
+import "./detailCard.css";
 
 const DetailCard = ({ currentItem }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import RegImage from "../../assests/Register.png";
-import "./Register.css";
+import "./register.css";
 const Register = () => {
   return (
     <>
@@ -11,7 +11,12 @@ const Register = () => {
         </h1>
         <Row className="mt-5">
           <Col lg={5} md={6} sm={12} className="p-5 m-auto  rounded-lg">
-            <img src={RegImage} width="500px" height="400px" />
+            <img
+              src={RegImage}
+              width="500px"
+              height="400px"
+              alt="register-img"
+            />
           </Col>
           <Col
             lg={5}

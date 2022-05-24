@@ -1,11 +1,11 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Row, Col, Form, Container } from "react-bootstrap";
-import { fetchNews } from "../../api";
-import Card from "../Card/Card";
-import DetailCard from "../DetailCard/DetailCard";
+import { fetchNews } from "../../services";
+import Card from "../Card/card";
+import DetailCard from "../DetailCard/detailCard";
 
-import { codes } from "./../../db";
-import "./Dashboard.css";
+import { codes } from "../../db";
+import "./dashboard.css";
 
 let Dashboard = () => {
   const [news, setNews] = useState([]);

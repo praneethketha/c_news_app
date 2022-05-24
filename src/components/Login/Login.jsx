@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import "./Login.css";
+import "./login.css";
 import Loginimage from "../../assests/Login.png";
 const Login = () => {
   return (
@@ -21,6 +21,7 @@ const Login = () => {
               src={Loginimage}
               width="500px"
               height="500px"
+              alt="login-img"
             />
           </Col>
           <Col

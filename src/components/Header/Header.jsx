@@ -3,7 +3,7 @@ import { Button, NavLink } from "react-bootstrap";
 import { CgMenuGridO } from "react-icons/cg";
 import { MdLogin } from "react-icons/md";
 import { HiUserAdd } from "react-icons/hi";
-import "./Header.css";
+import "./header.css";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
